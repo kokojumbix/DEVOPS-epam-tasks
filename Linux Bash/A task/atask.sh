@@ -52,7 +52,6 @@ CHOSENIP=${ARR[0]}
 CHOSENMASK=${ARR[0]}
 fi
 
-rm test.txt
 
 MASKCIDR=$( ./CIDRmask.sh $CHOSENMASK )
 for (( i=1; i< (( ( 2 ** (32-$MASKCIDR) ) - 2 )); i++ ))
@@ -75,6 +74,7 @@ echo
 echo "Result:"
 ./ipname.sh
 
+rm test.txt
 
 
 }
