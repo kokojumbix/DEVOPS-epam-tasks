@@ -1,13 +1,183 @@
 #!/bin/bash
 
+function ipname {
+local IFS="
+"
+IIFA=$(cat test.txt | awk '{ print $4 }'  | sed 's/://g')
+
+for i in ${IIFA[@]}
+do
+echo -n "IP:" $i"   Name: " 
+nslookup $i | awk '{ if ($4 != "find") print $4; else print "NULL" }' | tr '\n' ' '
+echo " "
+done
+}
+
+
+function byte_binary_to_decimal {
+if [[ $# -eq 1 ]]
+then
+local string=$1
+local SUM=0
+if [[ ${#string} -eq 8 ]]
+then
+for (( var = 0; var<8; var++ ))
+do
+local SUM=$(( $SUM +  ${string:$var:1} * (2**(7-$var))  ))
+
+done
+echo $SUM
+
+else
+echo "Bad argument."
+fi
+else
+        echo "Bad number of arguments."
+fi
+
+
+}
+
+
+function byte_decimal_to_binary {
+if [[ $# -eq 1 ]]
+then
+
+local SUM=$1
+local BINARY=''
+if [[ $1 -lt 256 ]]
+then
+for (( var = 0; var<8; var++ ))
+do
+if [[ $(( (2**(7 - $var) ) )) -le $SUM ]]
+then
+local SUM=$(( $SUM - (2**(7 - $var)) ))
+local BINARY=$BINARY'1'
+else
+local BINARY=$BINARY"0"
+
+fi
+done
+echo $BINARY
+
+else
+echo "Bad argument."
+
+fi
+
+
+else
+        echo "Bad number of arguments."
+
+fi
+
+
+}
+
+
+function webaddress {
+
+if [[ $# -eq 2 ]]
+then
+
+
+BINARY=''
+if [[ $1 =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]
+then
+local IFS='.'
+read -r -a ARR <<< "$1"
+for i in {0..3}
+do
+BINARY=$BINARY$( byte_decimal_to_binary ${ARR[$i]} )
+
+
+done
+
+SUMMARY=''
+for (( i=0; i<32; i++ ))
+do
+if [[ ${BINARY:$i:1} == '1' ]] && [[ $i -lt $2  ]]
+then
+SUMMARY=$SUMMARY"1"
+
+else
+SUMMARY=$SUMMARY"0"
+fi
+done
+
+
+
+local DECSUMMARY=""
+for (( i=0; i<4; i++ ))
+do
+local DECSUMMARY=$DECSUMMARY$( byte_binary_to_decimal ${SUMMARY:$(( $i*8 )):8} )"."
+
+done
+echo $DECSUMMARY
+
+else
+echo "Bad argument."
+fi
+
+
+else
+        echo "Bad number of arguments."
+fi
+
+
+}
+
+
 function help {
 echo "Use" 
 echo "	--all		scan every host in your subnet (by interfaces)."
 echo "	--target	scan open TCP ports."
 echo "Note: to use --target flag nmap must be installed."
 }
+
 function getip {
-	./ipparse.sh
+ifconfig | grep "inet " | awk '{ if ( $2 !~ "127.***.***.***" ) print $2 " " $4 }'
+}
+
+function CIDRmask {
+if [[ $# -eq 1 ]]
+then
+
+local BINARY=''
+if [[ $1 =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]
+then
+OIFS="$IFS"
+IFS='.'
+read -r -a ARR <<< "$1"
+IFS="$OIFS"
+for i in {0..3}
+do
+local BINARY=$BINARY$( byte_decimal_to_binary ${ARR[$i]} )
+
+done
+local BINARY=$BINARY" "
+local index=0
+for (( i=0; i<32; i++ ))
+do
+if [[  ${BINARY:$i:1} -eq 1 ]]
+then
+local index=$(( $index + 1 ))
+else
+break
+
+
+fi
+done
+
+echo $index
+
+else
+echo "Bad argument."
+fi
+
+else
+        echo "Bad number of arguments."
+fi
 }
 
 
@@ -17,8 +187,9 @@ if [[ $# -eq 0 ]]
 
 elif [[ $# -eq 1 ]]
 function all {
-ALLIPS=$( getip )
-ARRAY=$( echo $ALLIPS )
+
+local ALLIPS=$( getip )
+local ARRAY=$( echo $ALLIPS )
 IFS=' '
 read -r -a ARR <<< "$ARRAY"
 echo "Addresses for analysis"
@@ -53,10 +224,10 @@ CHOSENMASK=${ARR[0]}
 fi
 
 
-MASKCIDR=$( ./CIDRmask.sh $CHOSENMASK )
+MASKCIDR=$( CIDRmask $CHOSENMASK )
 for (( i=1; i< (( ( 2 ** (32-$MASKCIDR) ) - 2 )); i++ ))
 do
-PINGBUFFER=$( ./webaddress.sh $CHOSENIP $MASKCIDR )
+PINGBUFFER=$( webaddress $CHOSENIP $MASKCIDR )
 PINGADDRESS=( $( echo $PINGBUFFER | awk -F "." '{ print $1,$2,$3,$4 }' ) )
 PINGADDRESS[3]=$(( ${PINGADDRESS[3]} + ($i%255) ))
 PINGADDRESS[2]=$(( ${PINGADDRESS[2]} + ($i/255) ))"."
@@ -72,9 +243,9 @@ sleep 3
 echo
 echo
 echo "Result:"
-./ipname.sh
+ipname
 
-rm test.txt
+#rm test.txt
 
 
 }
