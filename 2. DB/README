@@ -1,1 +1,13 @@
 
+First of all, mysql needed to be installed.
+
+In case of using "apt":
+sudo apt-get install mysql-server
+
+In case of using "yum":
+sudo yum install mariadb-server
+
+I'm using Centos with package manager "yum", so there are result of using install command.
+![install](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/Screenshots/DB%20task/image.png?raw=true)
+
+
