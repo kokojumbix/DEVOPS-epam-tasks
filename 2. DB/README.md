@@ -40,6 +40,9 @@ Can read and write data only in their area.
 
 Can read and write data in all areas.
 
+**4 level** 
+
+Can edit rules.
 
 ## Creating database on the server through console.
 
