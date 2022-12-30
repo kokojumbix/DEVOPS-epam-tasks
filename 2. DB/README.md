@@ -17,6 +17,10 @@ https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/2.%20DB/installdb.sh
 **After install mysql, was created selected subject area and described the database scheme.**
 
 Selected subject area: Unified system from various spheres of life. (City-Transport ticket, medical card, passport)
+
+![database_scheme](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/Screenshots/DB%20task/DB_designer_task_1_scheme.png)
+
+
 For every subject area needed different administrative level:
 
 **1 level (Transport controller, Doctor during review):** 
