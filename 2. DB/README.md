@@ -19,14 +19,14 @@ https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/2.%20DB/installdb.sh
 Selected subject area: Unified system from various spheres of life. (City-Transport ticket, medical card, passport)
 For every subject area needed different administrative level:
 
-**1 level (Transport controller, Doctor during review):**
+**1 level (Transport controller, Doctor during review):** 
 Can read data only in their area. 
 (example - Doctor can take information only about medical card)
 
-**2 level**
+**2 level** 
 Can read and write data only in their area.
 
-**3 level**
+**3 level** 
 Can read and write data in all areas.
 
 
