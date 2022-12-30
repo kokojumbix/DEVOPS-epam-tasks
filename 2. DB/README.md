@@ -1,6 +1,6 @@
 1 PART
 
-First of all, mysql needed to be installed.
+**First of all, mysql needed to be installed.**
 
 In case of using "apt":
 sudo apt-get install mysql-server
@@ -13,5 +13,15 @@ I'm using Centos with package manager "yum", so there are result of using instal
 
 Also for this was written little script, which install db using yum. It has name "installdb.sh".
 https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/2.%20DB/installdb.sh
+
+**After install mysql, was created selected subject area and described the database scheme.**
+
+Selected subject area: Unified system from various spheres of life. (City-Transport ticket, medical ID, passport)
+
+For every subject area needed different administrative level:
+
+
+
+
 
 
