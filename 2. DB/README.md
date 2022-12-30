@@ -1,5 +1,4 @@
-1 PART
-
+**1 PART**
 **First of all, mysql needed to be installed.**
 
 In case of using "apt":
@@ -16,11 +15,17 @@ https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/2.%20DB/installdb.sh
 
 **After install mysql, was created selected subject area and described the database scheme.**
 
-Selected subject area: Unified system from various spheres of life. (City-Transport ticket, medical ID, passport)
-
+Selected subject area: Unified system from various spheres of life. (City-Transport ticket, medical card, passport)
 For every subject area needed different administrative level:
 
+1 level (Transport controller, Doctor during review):
+Can read data only in their area. (example - Doctor can take information only about medical card)
 
+2 level
+Can read and write data only in their area.
+
+3 level
+Can read and write data in all areas.
 
 
 
