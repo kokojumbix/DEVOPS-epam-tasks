@@ -20,6 +20,7 @@ Selected subject area: Unified system from various spheres of life. (City-Transp
 For every subject area needed different administrative level:
 
 1 level (Transport controller, Doctor during review):
+
 Can read data only in their area. 
 (example - Doctor can take information only about medical card)
 
