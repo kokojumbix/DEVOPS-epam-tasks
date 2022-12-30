@@ -46,4 +46,11 @@ Can edit rules.
 
 ## Creating database on the server through console.
 
+Command to create db:
+```sql
+CREATE DATABASE UPASS;
+```
+
+
+
 
