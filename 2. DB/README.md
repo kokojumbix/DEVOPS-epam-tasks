@@ -64,6 +64,7 @@ CREATE TABLE `Transport Ticket`
 PRIMARY KEY (`Passport_id`)
 );
 
+
 CREATE TABLE `Medical card` 
 (
 `Passport_id` varchar(10) NOT NULL,
@@ -71,6 +72,7 @@ CREATE TABLE `Medical card`
 `blood type` varchar(2) NOT NULL,
 PRIMARY KEY (`Passport_id`)
 );
+
 
 CREATE TABLE `Passport` 
 (
