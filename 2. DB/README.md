@@ -95,5 +95,18 @@ ALTER TABLE `Transport Ticket` ADD CONSTRAINT `Transport Ticket_fr0` FOREIGN KEY
 ALTER TABLE `Medical card` ADD CONSTRAINT `Medical card_fk0` FOREIGN KEY (`Passport_id`) REFERENCES `Passport` (`id`);
 ALTER TABLE `Disease` ADD CONSTRAINT `Disease_fk0` FOREIGN KEY (`Medical_card_id`) REFERENCES `Medical card` (`id`);
 ```
+Filling DB was made by using SQL file. [Here is file](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/2.%20DB/filldb.sql)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
