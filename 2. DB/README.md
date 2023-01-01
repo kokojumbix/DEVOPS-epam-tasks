@@ -70,7 +70,8 @@ CREATE TABLE `Medical card`
 `Passport_id` varchar(10) NOT NULL,
 `id` varchar(10) NOT NULL,
 `blood type` varchar(2) NOT NULL,
-PRIMARY KEY (`Passport_id`)
+PRIMARY KEY (`Passport_id`),
+UNIQUE (`id`)
 );
 
 
