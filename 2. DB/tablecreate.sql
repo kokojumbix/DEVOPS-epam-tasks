@@ -16,7 +16,8 @@ CREATE TABLE `Medical card`
 `Passport_id` varchar(10) NOT NULL,
 `id` varchar(10) NOT NULL,
 `blood type` varchar(2) NOT NULL,
-PRIMARY KEY (`Passport_id`)
+PRIMARY KEY (`Passport_id`),
+UNIQUE (`id`)
 );
 
 
@@ -39,10 +40,3 @@ PRIMARY KEY (`Medical_card_id`)
 ALTER TABLE `Transport Ticket` ADD CONSTRAINT `Transport Ticket_fr0` FOREIGN KEY (`Passport_id`) REFERENCES Passport(`id`);
 ALTER TABLE `Medical card` ADD CONSTRAINT `Medical card_fk0` FOREIGN KEY (`Passport_id`) REFERENCES `Passport` (`id`);
 ALTER TABLE `Disease` ADD CONSTRAINT `Disease_fk0` FOREIGN KEY (`Medical_card_id`) REFERENCES `Medical card` (`id`);
-
-
-
-
-
-
-
