@@ -97,6 +97,8 @@ ALTER TABLE `Disease` ADD CONSTRAINT `Disease_fk0` FOREIGN KEY (`Medical_card_id
 ```
 Filling DB was made by using SQL file. [Here is file](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/2.%20DB/filldb.sql)
 
+Example of using SELECT operator with [sql file](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/2.%20DB/selectdb.sql):
+![image](https://user-images.githubusercontent.com/113692759/211839980-e58d0855-b4cd-4a1c-9ef7-09a013c5a7da.png)
 
 
 
