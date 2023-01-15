@@ -104,9 +104,9 @@ testinsert (Allowed SELECT and INSERT command):
 ## 2 PART
 
 To create backup used command:
-'''bash
+```bash
 mysqldump UPASS > backupfile
-'''
+```
 
 For testing backup file, was deleted some table:
 
@@ -117,9 +117,9 @@ Modified table:
 ![image](https://user-images.githubusercontent.com/113692759/212554778-dcb5ff0e-1e46-4e06-ae19-12a9d0bef69d.png)
 
 Use of backup file with command:
-'''bash
+```bash
 mysql UPASS < backupfile
-'''
+```
 
 Restored table:
 ![image](https://user-images.githubusercontent.com/113692759/212554957-5ac077a5-261b-4bc6-9312-af314d234d91.png)
