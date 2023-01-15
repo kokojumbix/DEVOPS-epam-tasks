@@ -25,25 +25,6 @@ Selected subject area: Unified system from various spheres of life. (City-Transp
 ![database_scheme](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/Screenshots/DB%20task/DB_designer_task_1_scheme.png)
 
 
-## For every subject area needed different access level :
-
-**1 level (Transport controller, Doctor during review):** 
-
-Can read data only in their area. 
-(example - Doctor can take information only about medical card)
-
-**2 level** 
-
-Can read and write data only in their area.
-
-**3 level** 
-
-Can read and write data in all areas.
-
-**4 level** 
-
-Can edit rules.
-
 ## Creating database on the server through console.
 
 Command to create db:
@@ -120,7 +101,28 @@ testinsert (Allowed SELECT and INSERT command):
 ![image](https://user-images.githubusercontent.com/113692759/212553348-85c52a23-78d6-4587-87a6-e307a8da3ed0.png)
 
 
+## 2 PART
 
+To create backup used command:
+'''bash
+mysqldump UPASS > backupfile
+'''
+
+For testing backup file, was deleted some table:
+
+Original table:
+![image](https://user-images.githubusercontent.com/113692759/212554682-7c4584c2-f5c8-4587-ae34-8c7f13f15dfb.png)
+
+Modified table:
+![image](https://user-images.githubusercontent.com/113692759/212554778-dcb5ff0e-1e46-4e06-ae19-12a9d0bef69d.png)
+
+Use of backup file with command:
+'''bash
+mysql UPASS < backupfile
+'''
+
+Restored table:
+![image](https://user-images.githubusercontent.com/113692759/212554957-5ac077a5-261b-4bc6-9312-af314d234d91.png)
 
 
 
