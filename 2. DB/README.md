@@ -106,7 +106,18 @@ DDL, DML, DCL queries in files:
 [DML](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/219c080e95476d76ac14f50a63031c445a436449/2.%20DB/DMLexample.sql)
 [DDL](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/219c080e95476d76ac14f50a63031c445a436449/2.%20DB/DDLexample.sql)
 
+Creating users with different previleges (DCL sql file). Table that show users with their previleges:
+![image](https://user-images.githubusercontent.com/113692759/212552972-c5a88890-a434-4cad-b65e-495d154ae028.png)
 
+
+Verify that the privileges
+allow or deny certain actions presented on next screenshots:
+
+testuser (Allowed only command SELECT):
+![image](https://user-images.githubusercontent.com/113692759/212553268-6b6bacbe-54f0-4854-b8cc-5702425c1e2d.png)
+
+testinsert (Allowed SELECT and INSERT command):
+![image](https://user-images.githubusercontent.com/113692759/212553348-85c52a23-78d6-4587-87a6-e307a8da3ed0.png)
 
 
 
