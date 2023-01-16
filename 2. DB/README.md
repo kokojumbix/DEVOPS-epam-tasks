@@ -143,7 +143,6 @@ mysql --host=3.228.221.48 -u=admin -p < backupfile
 
 ## Example of executing SELECT command in AWS RDS
 
-![image](https://user-images.githubusercontent.com/113692759/212745303-555f446b-a412-4f03-854e-cfee61ea5f09.png)
-
+![image](https://user-images.githubusercontent.com/113692759/212747421-a92c1f3f-bc41-4c16-b41a-552adc86c60d.png)
 
 ## Part 3
