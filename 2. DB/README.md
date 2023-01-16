@@ -125,5 +125,25 @@ Restored table:
 ![image](https://user-images.githubusercontent.com/113692759/212554957-5ac077a5-261b-4bc6-9312-af314d234d91.png)
 
 
+## Transfer of local database to RDS AWS.
+
+1) Creating DB instance
+
+![image](https://user-images.githubusercontent.com/113692759/212744548-33b22b50-9ba2-4b80-98fd-bc4b05933f97.png)
+
+2) Connect to DB
+
+![image](https://user-images.githubusercontent.com/113692759/212744836-5fb6c809-ae0a-43de-aff3-9ac3a0b3ca09.png)
+
+3) Transfering DB to RDS by using command
+
+```bash
+mysql --host=3.228.221.48 -u=admin -p
+```
+
+## Example of executing SELECT command in AWS RDS
+
+![image](https://user-images.githubusercontent.com/113692759/212745303-555f446b-a412-4f03-854e-cfee61ea5f09.png)
 
 
+## Part 3
