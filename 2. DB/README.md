@@ -138,7 +138,7 @@ Restored table:
 3) Transfering DB to RDS by using command
 
 ```bash
-mysql --host=3.228.221.48 -u=admin -p
+mysql --host=3.228.221.48 -u=admin -p < backupfile
 ```
 
 ## Example of executing SELECT command in AWS RDS
