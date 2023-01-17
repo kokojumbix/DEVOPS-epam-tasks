@@ -218,6 +218,7 @@ fi
 CHOSENIP=${ARR[$(( ($SN - 1) * 2 ))]}
 CHOSENMASK=${ARR[$(( ( ($SN - 1) * 2) + 1 ))]}
 
+
 else
 CHOSENIP=${ARR[0]}
 CHOSENMASK=${ARR[0]}
@@ -245,7 +246,7 @@ echo
 echo "Result:"
 ipname
 
-#rm test.txt
+rm test.txt
 
 
 }
