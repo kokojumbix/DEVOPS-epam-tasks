@@ -1,5 +1,6 @@
 
 ## Task A
+Script is [here](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/1.%20Linux%20Bash/A%20task/atask.sh)
 
 Starting without parameters:
 
@@ -14,6 +15,8 @@ Starting with --target parameter and chosen ip:
 ![image](https://user-images.githubusercontent.com/113692759/213021605-0c213b4c-73f8-42d9-938b-3cb412d08564.png)
 
 ## Task B
+Script is [here](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/1.%20Linux%20Bash/B%20task/btask.sh)
+
 
 Script output:
 
@@ -24,6 +27,7 @@ Script output:
 ![image](https://user-images.githubusercontent.com/113692759/213023542-e6c00f50-568c-4afa-ad4a-13bcc9a04370.png)
 
 ## Task C
+Script is [here](https://github.com/kokojumbix/DEVOPS-epam-tasks/blob/main/1.%20Linux%20Bash/C%20task/ctask.sh)
 
 Using of script:
 
