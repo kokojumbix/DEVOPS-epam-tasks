@@ -51,9 +51,12 @@ Note: Deleted files saved in previous backup directory.
 
 6) Creating crontab job to execute Update every minute.
 
-![image](https://user-images.githubusercontent.com/113692759/213033820-6ded7940-8fff-4335-a008-446ad22e1c03.png)
+![image](https://user-images.githubusercontent.com/113692759/213034686-5344d982-98c0-4889-806e-567efdda22fe.png)
 
-![image](https://user-images.githubusercontent.com/113692759/213033846-4b1a5b92-1e7c-4861-bfea-99ee8a270492.png)
+![image](https://user-images.githubusercontent.com/113692759/213034729-013b418e-d213-4baa-8971-80d3714c4b24.png)
+
+![image](https://user-images.githubusercontent.com/113692759/213035001-5c46e41c-39f0-48f7-8fa3-428d6011e91b.png)
+
 
 
 
