@@ -146,3 +146,14 @@ mysql --host=3.228.221.48 -u=admin -p < backupfile
 ![image](https://user-images.githubusercontent.com/113692759/212747421-a92c1f3f-bc41-4c16-b41a-552adc86c60d.png)
 
 ## Part 3
+
+Created database and collection:
+
+![image](https://user-images.githubusercontent.com/113692759/213730576-038e8697-cf0c-4003-ad8e-bfbefaecd6fb.png)
+
+Created some documents in database:
+
+![image](https://user-images.githubusercontent.com/113692759/213733400-dc9e478f-05d2-43b6-8e38-716c1056b77b.png)
+
+![image](https://user-images.githubusercontent.com/113692759/213733770-28494ee4-a4ec-4b8b-b1f5-2c21b678c5b5.png)
+
