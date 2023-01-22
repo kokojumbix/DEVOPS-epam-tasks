@@ -1,5 +1,5 @@
 
-##Basic configuration:
+## Basic configuration:
 
 Server_1: Ubuntu
 
