@@ -65,6 +65,9 @@ For routing throught Server 1 was needed to edit file /etc/sysctl.conf:
 
 ## 3) Testing connection with commands ping and traceroute:
 
+Ping and traceroute from Client 1 to Client 2
+
+![image](https://user-images.githubusercontent.com/113692759/214688704-4609326a-1271-4d95-b19a-cb08562b4d88.png)
 
 
 Ping and traceroute from Client 2 to Client 1
