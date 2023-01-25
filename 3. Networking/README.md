@@ -27,7 +27,7 @@ Client_2 (Centos)
 
 ![image](https://user-images.githubusercontent.com/113692759/214542639-6b97eb2e-bacc-431f-b518-654f19027080.png)
 
-## 1) Configuring static addresses
+## 1) Configuring static addresses on server
 
 For configuring Server 1 was created shell script
 ```Bash
@@ -39,5 +39,14 @@ nmcli connection modify "Wired connection 3" ipv4.addresses "10.1.3.1/24"
 nmcli connection modify "Wired connection 3" ipv4.method "Manual"
 ```
 
+Result config:
+![image](https://user-images.githubusercontent.com/113692759/214548816-cb350dee-8d2b-46be-95ba-647fa51476d6.png)
+
+## 2) Setting up the dhcp server, wich will configure Client 1 and Client 2 link:
+
+Installing DHCP-server
+```Bash
+sudo apt-get install isc-dhcp-server -y
+```
 
 
