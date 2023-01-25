@@ -49,4 +49,8 @@ Installing DHCP-server
 sudo apt-get install isc-dhcp-server -y
 ```
 
+Configuring interfaces, wich will be used:
+
+![image](https://user-images.githubusercontent.com/113692759/214551368-9881b52a-3540-4520-bcd1-84fcfaf27778.png)
+
 
