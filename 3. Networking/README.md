@@ -54,3 +54,22 @@ Configuring interfaces, wich will be used:
 ![image](https://user-images.githubusercontent.com/113692759/214551368-9881b52a-3540-4520-bcd1-84fcfaf27778.png)
 
 
+Configuring DHCP-server:
+
+![image](https://user-images.githubusercontent.com/113692759/214577780-884a26cc-0bb9-45c5-8a0e-208f14cb9caa.png)
+
+
+For routing throught Server 1 was needed to edit file /etc/sysctl.conf:
+
+![image](https://user-images.githubusercontent.com/113692759/214687268-848504c9-d58d-40cd-85f9-bf3cf4d092ee.png)
+
+## 3) Testing connection with commands ping and traceroute:
+
+
+
+Ping and traceroute from Client 2 to Client 1
+
+![image](https://user-images.githubusercontent.com/113692759/214688095-f8c3dec4-11c7-46d8-92d7-f3dded0fc322.png)
+
+
+
