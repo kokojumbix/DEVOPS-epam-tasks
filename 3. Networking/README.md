@@ -105,6 +105,7 @@ Client 2:
 ![image](https://user-images.githubusercontent.com/113692759/214931800-d5619411-3349-4518-ab7a-542810f781e2.png)
 
 
+Route check with command ```bash traseroute```
 
 
 
