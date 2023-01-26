@@ -74,5 +74,9 @@ Ping and traceroute from Client 2 to Client 1
 
 ![image](https://user-images.githubusercontent.com/113692759/214688095-f8c3dec4-11c7-46d8-92d7-f3dded0fc322.png)
 
+As can be seen, Clients can use ping in both sides. The result is that the DHCP server configures the clients, and Server 1 has active routes.
+
+
+## 4) Configuring virtual interface lo
 
 
