@@ -89,7 +89,21 @@ To configure this addresses was modified file /etc/network/interfaces:
 
 ![image](https://user-images.githubusercontent.com/113692759/214825665-5c314bb0-a73b-466e-bc79-bf90fb2c8a73.png)
 
-Configuring Net 4 interfaces:
+Configured addresses:
+
+![image](https://user-images.githubusercontent.com/113692759/214930807-2c561873-b339-45dd-bb63-33edaaba8ef3.png)
+
+Configured routes:
+
+Server 1:
+
+![image](https://user-images.githubusercontent.com/113692759/214932149-a2e88511-5cfa-4d56-8567-26f55367a117.png)
+
+
+Client 2:
+
+![image](https://user-images.githubusercontent.com/113692759/214931800-d5619411-3349-4518-ab7a-542810f781e2.png)
+
 
 
 
