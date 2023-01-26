@@ -74,9 +74,23 @@ Ping and traceroute from Client 2 to Client 1
 
 ![image](https://user-images.githubusercontent.com/113692759/214688095-f8c3dec4-11c7-46d8-92d7-f3dded0fc322.png)
 
-As can be seen, Clients can use ping in both sides. The result is that the DHCP server configures the clients, and Server 1 has active routes.
+As can be seen, Clients can use ping in both sides. The result is that the DHCP server configures the clients interfaces wich linked to Server 1, so Clients can make information transfer only through that link. 
 
 
 ## 4) Configuring virtual interface lo
+
+lo new ip:
+
+172.17.34.1/24
+
+172.17.44.1/24
+
+To configure this addresses was modified file /etc/network/interfaces:
+
+![image](https://user-images.githubusercontent.com/113692759/214825665-5c314bb0-a73b-466e-bc79-bf90fb2c8a73.png)
+
+Configuring Net 4 interfaces:
+
+
 
 
