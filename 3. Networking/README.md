@@ -148,10 +148,13 @@ Adding summarized route to Client 1 from Server 1:
 
 ![image](https://user-images.githubusercontent.com/113692759/214942715-0dcb1d69-3332-436b-b895-60abd90d375c.png)
 
+Traceroute test from Client 2:
+
+![image](https://user-images.githubusercontent.com/113692759/214943122-d78b98e0-9c39-4fca-ad2f-6dc7792a14cf.png)
 
 
 
-
+## 6) Configuring computers, to have access from all to everyone.
 
 
 
