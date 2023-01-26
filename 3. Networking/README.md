@@ -29,7 +29,7 @@ Client_2 (Centos)
 
 ## 1) Configuring static addresses on server
 
-For configuring Server 1 was created shell script
+For configuring Server 1 created shell script
 ```Bash
 nmcli connection modify "Wired connection 1" ipv4.addresses "192.168.31.200/24"
 nmcli connection modify "Wired connection 1" ipv4.method "Manual"
@@ -111,5 +111,48 @@ traceroute
 ```
 
 ![image](https://user-images.githubusercontent.com/113692759/214932914-449861e4-3ba4-4125-8314-7d52296905cc.png)
+
+
+## 5) Creating summarized address
+
+172.17.34.1/24
+
+172.17.44.1/24
+
+Difference between addresses in third octet = 10, so minimal number of needed bits is 4.
+
+Check is 20 netmask enough:
+
+Mask = 255.255.16.0
+Nearest net address is 172.17.32.0/20
+
+First host is 172.17.32.1 < 172.17.34.1
+Last host is 172.17.48.254 > 172.17.44.254
+
+In this case, that mask enough to insert created two addresses. 
+
+Summarized address: 172.17.32.0/20
+
+Removing route, that has been created in previous part:
+
+Server 1
+
+![image](https://user-images.githubusercontent.com/113692759/214941767-c6184144-7163-41f2-8869-8dc57b65b7d9.png)
+
+Client 2
+
+![image](https://user-images.githubusercontent.com/113692759/214942109-bdefd1df-1669-442d-b45d-cead6bbcb393.png)
+
+
+Adding summarized route to Client 1 from Server 1:
+
+![image](https://user-images.githubusercontent.com/113692759/214942715-0dcb1d69-3332-436b-b895-60abd90d375c.png)
+
+
+
+
+
+
+
 
 
