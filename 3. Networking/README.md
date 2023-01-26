@@ -185,6 +185,6 @@ Client 1 connect to Server 1 through connect to Client 2
 ![image](https://user-images.githubusercontent.com/113692759/214949272-9b8d89d3-845b-489c-b905-bc0553823ee8.png)
 
 
-
+## 7) Configuring firewall
 
 
