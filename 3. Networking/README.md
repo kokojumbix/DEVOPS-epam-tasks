@@ -107,8 +107,9 @@ Client 2:
 
 Route check with command 
 ```bash 
-traseroute
+traceroute
 ```
 
+![image](https://user-images.githubusercontent.com/113692759/214932914-449861e4-3ba4-4125-8314-7d52296905cc.png)
 
 
