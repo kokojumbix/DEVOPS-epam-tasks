@@ -154,7 +154,36 @@ Traceroute test from Client 2:
 
 
 
-## 6) Configuring computers, to have access from all to everyone.
+## 6) Configuring computers, to have access from all to everyone with ssh protocol.
+
+Starting sshd
+
+Server 1
+
+![image](https://user-images.githubusercontent.com/113692759/214947944-fb44b817-4349-41a2-b03d-8cee719ee6c0.png)
+
+Client 1
+
+![image](https://user-images.githubusercontent.com/113692759/214948282-b34ef53e-4474-4e5c-bb4b-75513a73c5b3.png)
+
+Client 2
+
+![image](https://user-images.githubusercontent.com/113692759/214948387-a3300823-d32c-4c61-b69d-596f61719c23.png)
+
+Testing the connection between clients and server:
+
+Client 2 connect to Client 1
+
+![image](https://user-images.githubusercontent.com/113692759/214948684-cf630807-96f3-41d9-a442-48063ead0d16.png)
+
+Client 1 connect to Client 2
+
+![image](https://user-images.githubusercontent.com/113692759/214948845-69ee309c-b226-4cfc-9d05-48994ed80b28.png)
+
+Client 1 connect to Server 1 through connect to Client 2
+
+![image](https://user-images.githubusercontent.com/113692759/214949272-9b8d89d3-845b-489c-b905-bc0553823ee8.png)
+
 
 
 
