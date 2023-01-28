@@ -187,4 +187,25 @@ Client 1 connect to Server 1 through connect to Client 2
 
 ## 7) Configuring firewall
 
+Enabling the firewall on Server 1:
+
+![image](https://user-images.githubusercontent.com/113692759/215290747-692c4271-d8a8-422a-a7f6-2ab283a1ed2f.png)
+
+Trying to connect with ssh from Client 1 to Client 2:
+
+![image](https://user-images.githubusercontent.com/113692759/215290816-c828c34b-71e0-4591-8454-4c7752f6438c.png)
+
+So firewall is working and blocks ssh connection.
+
+Creating rules:
+
+Allowing connection from Client 1:
+
+![image](https://user-images.githubusercontent.com/113692759/215294777-309070fc-7240-4d8e-b9da-4a006f14ac9c.png)
+
+Testing rule:
+
+![image](https://user-images.githubusercontent.com/113692759/215294922-cc1feda1-2262-462b-a454-119b2c1f7c01.png)
+
+
 
