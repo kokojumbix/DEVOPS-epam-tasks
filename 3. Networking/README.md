@@ -205,7 +205,7 @@ Allowing connection from Client 1:
 
 Testing rule:
 
-![image](https://user-images.githubusercontent.com/113692759/215294922-cc1feda1-2262-462b-a454-119b2c1f7c01.png)
+![image](https://user-images.githubusercontent.com/113692759/215295012-c99a93d9-b147-4af5-ba14-dbccbb17feb0.png)
 
 
 
