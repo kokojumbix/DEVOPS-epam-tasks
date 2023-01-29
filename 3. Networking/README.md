@@ -215,4 +215,17 @@ Testing from Client 2 machine:
 
 ![image](https://user-images.githubusercontent.com/113692759/215322220-46c051a1-912a-4e07-a700-f0c9615da6f0.png)
 
+## 8
+
+Trying to ping 8.8.8.8 from Client 2:
+
+![image](https://user-images.githubusercontent.com/113692759/215344143-7d1e2894-9cab-4a65-8bdf-79d80b89b90b.png)
+
+Configured NAT service:
+
+![image](https://user-images.githubusercontent.com/113692759/215344230-59cd3a37-2b51-4d79-a74d-73ed224a5aa7.png)
+
+Trying to ping 8.8.8.8 from Client 2:
+
+![image](https://user-images.githubusercontent.com/113692759/215344258-915d80b3-7930-40fe-a187-91774f666584.png)
 
