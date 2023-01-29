@@ -207,5 +207,12 @@ Testing rule:
 
 ![image](https://user-images.githubusercontent.com/113692759/215295012-c99a93d9-b147-4af5-ba14-dbccbb17feb0.png)
 
+Blocking ping with subnet address 172.17.44.0/24
+
+![image](https://user-images.githubusercontent.com/113692759/215322176-ccf04a8d-486b-4995-aa1a-3c2fe7c968fa.png)
+
+Testing from Client 2 machine:
+
+![image](https://user-images.githubusercontent.com/113692759/215322220-46c051a1-912a-4e07-a700-f0c9615da6f0.png)
 
 
