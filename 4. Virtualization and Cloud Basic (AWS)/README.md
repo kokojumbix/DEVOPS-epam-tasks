@@ -23,8 +23,13 @@ Connect with key file:
 
 ![image](https://user-images.githubusercontent.com/113692759/215348937-1deb5745-c3da-4f84-b67d-942f47f7626e.png)
 
+Created snapshot:
 
+![image](https://user-images.githubusercontent.com/113692759/215349547-ab36acde-5650-414f-9cb7-01940dd5a160.png)
 
+Terminating the instance:
+
+![image](https://user-images.githubusercontent.com/113692759/215349624-b5cd8891-8935-410a-b027-d1683566b470.png)
 
 
 
