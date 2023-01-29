@@ -215,7 +215,7 @@ Testing from Client 2 machine:
 
 ![image](https://user-images.githubusercontent.com/113692759/215322220-46c051a1-912a-4e07-a700-f0c9615da6f0.png)
 
-## 8
+## 8) Configuring NAT service
 
 Trying to ping 8.8.8.8 from Client 2:
 
