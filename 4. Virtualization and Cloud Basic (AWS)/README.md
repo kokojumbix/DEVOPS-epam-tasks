@@ -70,6 +70,15 @@ Created new EC2 instance:
 
 ![image](https://user-images.githubusercontent.com/113692759/215465883-d2de3a46-a8b9-478b-8a0f-9de6ef2c49a6.png)
 
+Created some files on attached disk:
+
+![image](https://user-images.githubusercontent.com/113692759/215467929-4cf0b04a-bbd8-4236-9c01-8bf343ff43ff.png)
+
+Detached disk:
+
+![image](https://user-images.githubusercontent.com/113692759/215468093-cbadd9a1-8c56-4066-9da9-ecaab4c41b19.png)
+
+
 
 
 
