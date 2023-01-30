@@ -43,9 +43,17 @@ Connecting in through ssh:
 
 Creating new volume and adding to working machine:
 
-![image](https://user-images.githubusercontent.com/113692759/215454372-45c8a8e6-67ff-49da-99e4-1dd096cdf624.png)
+![image](https://user-images.githubusercontent.com/113692759/215459973-3d3b51de-8b75-4203-8df8-21036c0c3b3c.png)
 
+![image](https://user-images.githubusercontent.com/113692759/215460043-c279b0af-cdce-4631-8180-15cc85390117.png)
 
+Creating partition for disk:
+
+![image](https://user-images.githubusercontent.com/113692759/215463820-ec773b8a-c194-483d-a0f7-74e3d2db700b.png)
+
+Formated the disk and mounted it:
+
+![image](https://user-images.githubusercontent.com/113692759/215464230-43121be7-ce1d-4d92-9cf5-95b75855e8bb.png)
 
 
 
