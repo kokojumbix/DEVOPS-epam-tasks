@@ -78,6 +78,14 @@ Detached disk:
 
 ![image](https://user-images.githubusercontent.com/113692759/215468093-cbadd9a1-8c56-4066-9da9-ecaab4c41b19.png)
 
+Attaching disk to new EC2 instance:
+
+![image](https://user-images.githubusercontent.com/113692759/215469008-29c2c9a0-74e9-4b04-8460-547c8b8f054b.png)
+
+List of files on attached disk:
+
+![image](https://user-images.githubusercontent.com/113692759/215469480-4666ac6b-a77f-42eb-854a-59d4bbd028af.png)
+
 
 
 
