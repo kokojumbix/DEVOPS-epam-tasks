@@ -22,9 +22,9 @@ Deleting RDS instance:
 
 
 
-
-## Work with EC2 instances
 <a name="EC2"></a>
+## Work with EC2 instances
+
 
 Creating EC2 instance:
 
