@@ -1,5 +1,10 @@
-## Starting
+## NAVIGATION
+1) [Start](#Starting)
+2) [EC2](#EC2)
+3)
 
+## Starting
+<a name="Starting"></a>
 Registered to AWS Cloud and created RDS instance for one of previous tasks (DB).
 
 ![image](https://user-images.githubusercontent.com/113692759/215345342-4d0ae174-c52b-4084-a8bd-6d5406375a83.png)
@@ -13,9 +18,7 @@ Deleting RDS instance:
 ![image](https://user-images.githubusercontent.com/113692759/215345844-51f1aecd-9297-4790-a658-a7e44d4eecc3.png)
 
 
-## NAVIGATION
 
-1) [EC2](#EC2)
 
 
 
