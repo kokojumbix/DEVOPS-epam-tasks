@@ -31,8 +31,15 @@ Terminating the instance:
 
 ![image](https://user-images.githubusercontent.com/113692759/215349624-b5cd8891-8935-410a-b027-d1683566b470.png)
 
+Creating instance from snapshot:
 
+![image](https://user-images.githubusercontent.com/113692759/215451765-3febbdc0-2680-4459-b8b8-1ed479a24990.png)
 
+![image](https://user-images.githubusercontent.com/113692759/215452402-e5baa6f9-dd86-4ce3-bee1-ebc27c3229f8.png)
+
+Connecting in through ssh:
+
+![image](https://user-images.githubusercontent.com/113692759/215453833-3e1d3af0-61df-4865-9b6e-24cd13282f9a.png)
 
 
 
