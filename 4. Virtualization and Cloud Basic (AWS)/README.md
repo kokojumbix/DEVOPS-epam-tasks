@@ -127,3 +127,17 @@ Trying to create domain:
 
 Domain not created.
 
+<a name="Lightsail"></a>
+## AWS Lightsail
+
+Creating an Instance:
+
+![image](https://user-images.githubusercontent.com/113692759/215591008-59a5df70-e6d3-4d4a-b8fa-af2cfc5c5ae3.png)
+
+Connecting to take password:
+
+![image](https://user-images.githubusercontent.com/113692759/215592106-710abea7-b35b-48ce-b5a4-5e53919a7889.png)
+
+Connecting to admin panel in browser:
+
+![image](https://user-images.githubusercontent.com/113692759/215592819-d79df9f9-6189-4da0-bae6-b20c1a4d255e.png)
