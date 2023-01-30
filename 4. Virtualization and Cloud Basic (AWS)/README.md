@@ -4,8 +4,7 @@
 3) [AWS Lambda](#lambda)
 4) [Route 53](#Route53) (It didn't work out. I opened case issue)
 5) [Lightsail](#Lightsail)
-
-F) [Static website. S3 bucket](#S3)   [Link]()
+7) [Static website. S3 bucket](#S3)   [Link]()
 ## Starting
 <a name="Starting"></a>
 Registered to AWS Cloud and created RDS instance for one of previous tasks (DB).
@@ -154,5 +153,23 @@ Modified site:
 Terminating instance:
 
 ![image](https://user-images.githubusercontent.com/113692759/215593602-397b4e7c-5d14-4f44-ada2-b932b6cccb72.png)
+
+## AWS S3
+
+Creating bucket:
+
+![image](https://user-images.githubusercontent.com/113692759/215595507-a630071a-99ab-46b6-9b84-5d5065e894d4.png)
+
+![image](https://user-images.githubusercontent.com/113692759/215595844-e975bd8e-4767-4835-ac8b-dde4788c4c68.png)
+
+Editing static hosting parameter:
+
+![image](https://user-images.githubusercontent.com/113692759/215596684-c6764ca7-516a-44d7-871c-7e0b802f8453.png)
+
+Creating files of static website:
+
+![image](https://user-images.githubusercontent.com/113692759/215602321-25913be5-fa9c-4bd7-8588-a52c5fffd7d3.png)
+
+
 
 
