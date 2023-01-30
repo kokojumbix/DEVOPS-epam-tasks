@@ -2,7 +2,7 @@
 1) [Start](#Starting)
 2) [EC2](#EC2)
 3) [AWS Lambda](#lambda)
-4) [Route 53](#Route53) (It didn't work out)
+4) [Route 53](#Route53) (It didn't work out. I opened case issue)
 5) [Lightsail](#Lightsail)
 
 ## Starting
