@@ -166,7 +166,7 @@ Editing static hosting parameter:
 
 ![image](https://user-images.githubusercontent.com/113692759/215596684-c6764ca7-516a-44d7-871c-7e0b802f8453.png)
 
-Creating files of static website:
+Creating files on static website:
 
 ![image](https://user-images.githubusercontent.com/113692759/215602321-25913be5-fa9c-4bd7-8588-a52c5fffd7d3.png)
 
