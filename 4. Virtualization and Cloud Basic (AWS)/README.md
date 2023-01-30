@@ -60,7 +60,15 @@ Formated the disk and mounted it:
 
 ![image](https://user-images.githubusercontent.com/113692759/215464230-43121be7-ce1d-4d92-9cf5-95b75855e8bb.png)
 
+Deleted snapshot, to fit in free tier disk sizing:
 
+![image](https://user-images.githubusercontent.com/113692759/215465149-1cf14504-d32e-4d83-a238-d887d8a380e4.png)
+
+Created new EC2 instance:
+
+![image](https://user-images.githubusercontent.com/113692759/215465374-d4b19c4d-b688-493b-b7ea-97e369ab2c1c.png)
+
+![image](https://user-images.githubusercontent.com/113692759/215465883-d2de3a46-a8b9-478b-8a0f-9de6ef2c49a6.png)
 
 
 
