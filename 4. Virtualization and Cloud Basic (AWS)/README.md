@@ -170,6 +170,11 @@ Creating files on static website:
 
 ![image](https://user-images.githubusercontent.com/113692759/215602321-25913be5-fa9c-4bd7-8588-a52c5fffd7d3.png)
 
+Finded template and modified:
+
+![image](https://user-images.githubusercontent.com/113692759/215607674-6afdda0a-a877-4c83-9e22-6f3a50dc8946.png)
+
+[Link to bucket](https://localhorsebucket.s3.us-east-1.amazonaws.com/index.html)
 
 
 
