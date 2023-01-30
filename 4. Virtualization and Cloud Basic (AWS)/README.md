@@ -3,7 +3,7 @@
 2) [EC2](#EC2)
 3) [AWS Lambda](#lambda)
 4) [Route 53](#Route53)
-
+5) [Lightsail](#Lightsail)
 
 ## Starting
 <a name="Starting"></a>
