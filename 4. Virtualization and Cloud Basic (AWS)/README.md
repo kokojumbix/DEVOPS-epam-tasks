@@ -41,6 +41,9 @@ Connecting in through ssh:
 
 ![image](https://user-images.githubusercontent.com/113692759/215453833-3e1d3af0-61df-4865-9b6e-24cd13282f9a.png)
 
+Creating new volume and adding to working machine:
+
+![image](https://user-images.githubusercontent.com/113692759/215454372-45c8a8e6-67ff-49da-99e4-1dd096cdf624.png)
 
 
 
