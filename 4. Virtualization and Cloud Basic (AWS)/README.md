@@ -141,3 +141,12 @@ Connecting to take password:
 Connecting to admin panel in browser:
 
 ![image](https://user-images.githubusercontent.com/113692759/215592819-d79df9f9-6189-4da0-bae6-b20c1a4d255e.png)
+
+Modifying theme:
+
+![image](https://user-images.githubusercontent.com/113692759/215593155-3a27159f-77a2-40f9-aa03-655e54525977.png)
+
+Modified site:
+
+![image](https://user-images.githubusercontent.com/113692759/215593297-71f34e0c-32e8-49b2-a5c4-3bb56b32ad3e.png)
+
