@@ -125,5 +125,5 @@ Trying to create domain:
 
 ![image](https://user-images.githubusercontent.com/113692759/215485431-3ef6f2f4-9852-42bc-a38f-312305d52daa.png)
 
-Domain has not been created.
+Domain not created.
 
