@@ -13,6 +13,11 @@ Deleting RDS instance:
 ![image](https://user-images.githubusercontent.com/113692759/215345844-51f1aecd-9297-4790-a658-a7e44d4eecc3.png)
 
 
+
+
+
+
+
 ## Work with EC2 instances
 
 Creating EC2 instance:
