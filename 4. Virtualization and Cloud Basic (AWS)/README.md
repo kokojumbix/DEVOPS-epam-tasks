@@ -2,6 +2,8 @@
 1) [Start](#Starting)
 2) [EC2](#EC2)
 3) [AWS Lambda](#lambda)
+4) [Route 53](#Route 53)
+
 
 ## Starting
 <a name="Starting"></a>
@@ -115,4 +117,13 @@ Little editing of function:
 Executing function:
 
 ![image](https://user-images.githubusercontent.com/113692759/215476988-f2392b15-6a7a-4c30-be58-593d429f61e1.png)
+
+<a name="Route 53"></a>
+## Route 53
+
+Trying to create domain:
+
+![image](https://user-images.githubusercontent.com/113692759/215485431-3ef6f2f4-9852-42bc-a38f-312305d52daa.png)
+
+Domain has not been created.
 
