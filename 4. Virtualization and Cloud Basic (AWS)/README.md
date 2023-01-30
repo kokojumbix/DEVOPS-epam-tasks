@@ -150,3 +150,8 @@ Modified site:
 
 ![image](https://user-images.githubusercontent.com/113692759/215593297-71f34e0c-32e8-49b2-a5c4-3bb56b32ad3e.png)
 
+Terminating instance:
+
+![image](https://user-images.githubusercontent.com/113692759/215593602-397b4e7c-5d14-4f44-ada2-b932b6cccb72.png)
+
+
