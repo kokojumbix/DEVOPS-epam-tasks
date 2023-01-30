@@ -4,7 +4,10 @@
 3) [AWS Lambda](#lambda)
 4) [Route 53](#Route53) (It didn't work out. I opened case issue)
 5) [Lightsail](#Lightsail)
-7) [Static website. S3 bucket](#S3)   [Link]()
+7) [Static website. S3 bucket](#S3)
+
+[Link to created static website](https://localhorsebucket.s3.us-east-1.amazonaws.com/index.html)
+
 ## Starting
 <a name="Starting"></a>
 Registered to AWS Cloud and created RDS instance for one of previous tasks (DB).
