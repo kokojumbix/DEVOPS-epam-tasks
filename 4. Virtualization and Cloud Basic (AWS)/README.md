@@ -1,7 +1,7 @@
 ## NAVIGATION
 1) [Start](#Starting)
 2) [EC2](#EC2)
-3)
+3) [AWS Lambda](#lambda)
 
 ## Starting
 <a name="Starting"></a>
@@ -93,7 +93,26 @@ List of files on attached disk:
 ![image](https://user-images.githubusercontent.com/113692759/215469480-4666ac6b-a77f-42eb-854a-59d4bbd028af.png)
 
 
+<a name="Lambda"></a>
+## AWS Lambda
 
+Created AWS Lambda Function:
 
+![image](https://user-images.githubusercontent.com/113692759/215475705-c9f6ff26-4ffc-48a7-9e99-b84e103636d8.png)
 
+Running test:
+
+![image](https://user-images.githubusercontent.com/113692759/215475777-44fe928d-f237-4e41-baac-9a1af0cf2b45.png)
+
+Running function from url:
+
+![image](https://user-images.githubusercontent.com/113692759/215476155-aa0e2235-4f89-4118-939a-e6c9d149e1b2.png)
+
+Little editing of function:
+
+![image](https://user-images.githubusercontent.com/113692759/215476883-fdb552f9-60de-46f0-888d-8edfd2cb67ba.png)
+
+Executing function:
+
+![image](https://user-images.githubusercontent.com/113692759/215476988-f2392b15-6a7a-4c30-be58-593d429f61e1.png)
 
